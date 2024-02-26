@@ -1,0 +1,21 @@
+{
+  "name": "add-remove-by-group",
+  "type": "widget",
+  "version": "1.11.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "exbVersion": "1.11.0",
+  "author": "Jeffrey Thompson",
+  "description": "Loads or removes sets of data by groups or individual layers",
+  "copyright": "City of Arlington",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
