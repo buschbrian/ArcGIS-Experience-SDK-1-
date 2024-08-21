@@ -1074,8 +1074,8 @@
           "type": "WIDGET",
           "widgetId": "widget_50",
           "bbox": {
-            "left": "4.0%",
-            "right": "71.3%",
+            "left": "4.1%",
+            "right": "71.2%",
             "top": "1.6%",
             "bottom": "95.1%",
             "width": "24.7%",
@@ -2950,7 +2950,7 @@
         "maxSuggestions": 3,
         "recentSearchesMaxNumber": 3,
         "resultMaxNumber": 3,
-        "enableFiltering": true,
+        "enableFiltering": false,
         "datasourceConfig": [
           {
             "configId": "config_0",
@@ -3016,7 +3016,7 @@
             ],
             "hint": "Parcel Address or Parcel ID",
             "searchServiceType": "FeatureService",
-            "searchExact": true
+            "searchExact": false
           },
           {
             "configId": "config_1",
@@ -4144,7 +4144,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1724269109592,
+  "timestamp": 1724273853547,
   "controllerPanels": {},
   "utilities": {
     "utility_1": {
