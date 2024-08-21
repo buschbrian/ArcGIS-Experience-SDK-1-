@@ -1069,12 +1069,36 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_50",
+          "bbox": {
+            "left": "4.0%",
+            "right": "71.3%",
+            "top": "1.6%",
+            "bottom": "95.1%",
+            "width": "24.7%",
+            "height": "3.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       },
       "type": "FIXED",
       "label": "Map FixedLayout",
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_22": {
@@ -1184,7 +1208,6 @@
       "label": "Title",
       "config": {
         "text": "<p><a href=\"https://millcreek.us\" target=\"_blank\" data-uniqueid=\"123bf449_6db6_f2aa_1ac7_d26ec849900c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fmillcreek.us%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; color: var(--dark-800); font-size: 18px; text-shadow: rgba(0, 0, 0, 0.3) -10px 0px 4px;\"><strong>Planning and Zoning Experience</strong></a><strong style=\"text-shadow: rgba(0, 0, 0, 0.3) -10px 0px 4px;\"> </strong><span style=\"text-shadow: rgba(0, 0, 0, 0.3) -10px 0px 4px;\">-</span><strong style=\"text-shadow: rgba(0, 0, 0, 0.3) -10px 0px 4px;\"> Build 1.33</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1425,7 +1448,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p><a href=\"page_0,view_1\" target=\"_self\" data-uniqueid=\"87b04b30_dc3a_a7ac_7215_aa46acaa88b6\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22value%22%3A%22page_0%2Cview_1%22%2C%22openType%22%3A%22_self%22%7D\"><strong>﻿</strong></a><a href=\"page_0,view_1\" target=\"_self\" data-uniqueid=\"87b04b30_dc3a_a7ac_7215_aa46acaa88b6\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22value%22%3A%22page_0%2Cview_1%22%2C%22openType%22%3A%22_self%22%7D\"><strong>Welcome Page</strong></a></p><p><a href=\"page_0,view_1\" target=\"_self\" data-uniqueid=\"87b04b30_dc3a_a7ac_7215_aa46acaa88b6\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22value%22%3A%22page_0%2Cview_1%22%2C%22openType%22%3A%22_self%22%7D\">Return to the home screen.</a></p>",
-        "placeholder": "<p><a href=\"page_0,view_1\" target=\"_self\" data-uniqueid=\"ed574fd6_4083_3a07_36b1_cad4757b75e1\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22value%22%3A%22page_0%2Cview_1%22%2C%22openType%22%3A%22_self%22%7D\">Double click to edit text</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1724,7 +1746,6 @@
       "label": "Menu/Overview Text",
       "config": {
         "text": "<p><strong style=\"font-size: 24px;\">Welcome to the Millcreek Map Explorer.</strong></p><p><span style=\"font-size: 16px;\">Please use the buttons to the to explore maps and data specific to Millcreek, UT. </span></p><p><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong>Planning and Zoning</strong></li></ul><p class=\"ql-indent-2\" style=\"line-height: 1.5;\"><em style=\"font-size: 12px; color: var(--org-header-bg);\">Land use information, current projects, zoning, and aerial photos.</em></p><p class=\"ql-indent-2\" style=\"line-height: 1.5;\"><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong>General Information</strong></li></ul><p class=\"ql-indent-2\" style=\"line-height: 1.5;\"><em style=\"font-size: 12px;\">Boundaries, utilities, and political representation.</em></p><p class=\"ql-indent-2\" style=\"line-height: 1.5;\"><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong>Sensitive Lands</strong></li></ul><p class=\"ql-indent-2\"><em style=\"color: var(--org-header-bg); font-size: 12px;\">Faults, fault study zones, liquefication p</em><em style=\"font-size: 12px;\">otential, slopes, and overlay zones.</em></p><p class=\"ql-indent-2\"><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong style=\"font-family: inherit; color: var(--org-header-bg);\">Transportation</strong></li></ul><p style=\"line-height: 1.5;\"><strong style=\"font-family: inherit; color: var(--org-header-bg); font-size: 12px;\"><em>\t\t\t\t\t\t</em></strong><em style=\"font-family: inherit; color: var(--org-header-bg); font-size: 12px;\">  Centerlines, functional classes, active transportation, UTA bus information.</em></p><p style=\"line-height: 1.5;\"><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong>Hydrology &amp; Storm Drain</strong></li></ul><p class=\"ql-indent-2\"><em style=\"font-size: 12px;\">Hydrology, floodplains, storm drain infrastructure, watersheds, and irrigation canals.</em></p><p class=\"ql-indent-2\"><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong>Promise Program</strong></li></ul><p class=\"ql-indent-2\"><em style=\"font-size: 12px;\">School information, social and digital equity, community assets, safe routes and little libraries.</em></p><p class=\"ql-indent-2\"><br></p><ul><li class=\"ql-indent-1\" style=\"line-height: 1.5;\"><strong>Electronic Documents</strong></li></ul><p class=\"ql-indent-2\"><em style=\"font-size: 12px; color: var(--org-header-bg);\">Access electronic documents from the Salt Lake County Assessor's office.</em></p><p><br></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2433,8 +2454,8 @@
           "canLayers": true,
           "canMeasure": true,
           "canScaleBar": true,
-          "canSelect": true,
-          "canSelectState": true,
+          "canSelect": false,
+          "canSelectState": false,
           "canCompass": true
         },
         "isUseCustomMapState": true,
@@ -2462,7 +2483,8 @@
           "rotation": 0,
           "viewType": "2d"
         },
-        "initialMapDataSourceID": "dataSource_1"
+        "initialMapDataSourceID": "dataSource_1",
+        "layoutIndex": 0
       },
       "id": "widget_41",
       "layouts": {
@@ -2913,6 +2935,566 @@
       "useMapWidgetIds": [
         "widget_41"
       ]
+    },
+    "widget_50": {
+      "uri": "widgets/common/search/",
+      "version": "1.13.0",
+      "label": "Search",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style2",
+        "searchResultStyle": "Classic",
+        "maxSuggestions": 3,
+        "recentSearchesMaxNumber": 3,
+        "resultMaxNumber": 3,
+        "enableFiltering": true,
+        "datasourceConfig": [
+          {
+            "configId": "config_0",
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707l-4.137-4.137Z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Search",
+                "originalName": "outlined/editor/search.svg",
+                "path": [
+                  "general",
+                  "search"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "label": "Millcreek Parcels",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18aade0e989-layer-6",
+              "mainDataSourceId": "dataSource_1-18aade0e989-layer-6",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "prop_location",
+                "parcel_id"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "prop_location",
+                "name": "prop_location",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prop_location",
+                "format": null
+              },
+              {
+                "jimuName": "parcel_id",
+                "name": "parcel_id",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Parcel ID",
+                "format": null
+              }
+            ],
+            "searchFields": [
+              {
+                "jimuName": "prop_location",
+                "name": "prop_location",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prop_location",
+                "format": null
+              },
+              {
+                "jimuName": "parcel_id",
+                "name": "parcel_id",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Parcel ID",
+                "format": null
+              }
+            ],
+            "hint": "Parcel Address or Parcel ID",
+            "searchServiceType": "FeatureService",
+            "searchExact": true
+          },
+          {
+            "configId": "config_1",
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A45.718 45.718 0 0 1 8 14.492a48.01 48.01 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133Zm1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.752C5.768 13.444 2 8.819 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133ZM10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Pin",
+                "originalName": "outlined/application/pin.svg",
+                "path": [
+                  "general",
+                  "mapPin"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "label": "ArcGIS World Geocoding Service",
+            "useUtility": {
+              "utilityId": "utility_1"
+            },
+            "searchServiceType": "GeocodeService",
+            "singleLineFieldName": "SingleLine",
+            "isSupportSuggest": true,
+            "outputDataSourceId": "widget_50_output_config_1",
+            "addressFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              },
+              {
+                "jimuName": "Address or Place",
+                "alias": "Address or Place",
+                "type": "STRING",
+                "name": "Address or Place"
+              },
+              {
+                "jimuName": "Address2",
+                "alias": "Address2",
+                "type": "STRING",
+                "name": "Address2"
+              },
+              {
+                "jimuName": "Address3",
+                "alias": "Address3",
+                "type": "STRING",
+                "name": "Address3"
+              },
+              {
+                "jimuName": "Neighborhood",
+                "alias": "Neighborhood",
+                "type": "STRING",
+                "name": "Neighborhood"
+              },
+              {
+                "jimuName": "City",
+                "alias": "City",
+                "type": "STRING",
+                "name": "City"
+              },
+              {
+                "jimuName": "County",
+                "alias": "County",
+                "type": "STRING",
+                "name": "County"
+              },
+              {
+                "jimuName": "State",
+                "alias": "State",
+                "type": "STRING",
+                "name": "State"
+              },
+              {
+                "jimuName": "ZIP",
+                "alias": "ZIP",
+                "type": "STRING",
+                "name": "ZIP"
+              },
+              {
+                "jimuName": "ZIP4",
+                "alias": "ZIP4",
+                "type": "STRING",
+                "name": "ZIP4"
+              },
+              {
+                "jimuName": "Country",
+                "alias": "Country",
+                "type": "STRING",
+                "name": "Country"
+              },
+              {
+                "jimuName": "Loc_name",
+                "alias": "Loc_name",
+                "type": "STRING",
+                "name": "Loc_name"
+              },
+              {
+                "jimuName": "Shape",
+                "alias": "Shape",
+                "type": "STRING",
+                "name": "Shape"
+              },
+              {
+                "jimuName": "Status",
+                "alias": "Status",
+                "type": "STRING",
+                "name": "Status"
+              },
+              {
+                "jimuName": "Score",
+                "alias": "Score",
+                "type": "STRING",
+                "name": "Score"
+              },
+              {
+                "jimuName": "Match_addr",
+                "alias": "Match_addr",
+                "type": "STRING",
+                "name": "Match_addr"
+              },
+              {
+                "jimuName": "LongLabel",
+                "alias": "LongLabel",
+                "type": "STRING",
+                "name": "LongLabel"
+              },
+              {
+                "jimuName": "ShortLabel",
+                "alias": "ShortLabel",
+                "type": "STRING",
+                "name": "ShortLabel"
+              },
+              {
+                "jimuName": "Addr_type",
+                "alias": "Addr_type",
+                "type": "STRING",
+                "name": "Addr_type"
+              },
+              {
+                "jimuName": "Type",
+                "alias": "Type",
+                "type": "STRING",
+                "name": "Type"
+              },
+              {
+                "jimuName": "PlaceName",
+                "alias": "PlaceName",
+                "type": "STRING",
+                "name": "PlaceName"
+              },
+              {
+                "jimuName": "Place_addr",
+                "alias": "Place_addr",
+                "type": "STRING",
+                "name": "Place_addr"
+              },
+              {
+                "jimuName": "Phone",
+                "alias": "Phone",
+                "type": "STRING",
+                "name": "Phone"
+              },
+              {
+                "jimuName": "URL",
+                "alias": "URL",
+                "type": "STRING",
+                "name": "URL"
+              },
+              {
+                "jimuName": "Rank",
+                "alias": "Rank",
+                "type": "STRING",
+                "name": "Rank"
+              },
+              {
+                "jimuName": "BuildingName",
+                "alias": "BuildingName",
+                "type": "STRING",
+                "name": "BuildingName"
+              },
+              {
+                "jimuName": "AddressNumber",
+                "alias": "AddressNumber",
+                "type": "STRING",
+                "name": "AddressNumber"
+              },
+              {
+                "jimuName": "AddNumFrom",
+                "alias": "AddNumFrom",
+                "type": "STRING",
+                "name": "AddNumFrom"
+              },
+              {
+                "jimuName": "AddNumTo",
+                "alias": "AddNumTo",
+                "type": "STRING",
+                "name": "AddNumTo"
+              },
+              {
+                "jimuName": "AddressRange",
+                "alias": "AddressRange",
+                "type": "STRING",
+                "name": "AddressRange"
+              },
+              {
+                "jimuName": "Side",
+                "alias": "Side",
+                "type": "STRING",
+                "name": "Side"
+              },
+              {
+                "jimuName": "StPreDir",
+                "alias": "StPreDir",
+                "type": "STRING",
+                "name": "StPreDir"
+              },
+              {
+                "jimuName": "StPreType",
+                "alias": "StPreType",
+                "type": "STRING",
+                "name": "StPreType"
+              },
+              {
+                "jimuName": "StName",
+                "alias": "StName",
+                "type": "STRING",
+                "name": "StName"
+              },
+              {
+                "jimuName": "StType",
+                "alias": "StType",
+                "type": "STRING",
+                "name": "StType"
+              },
+              {
+                "jimuName": "StDir",
+                "alias": "StDir",
+                "type": "STRING",
+                "name": "StDir"
+              },
+              {
+                "jimuName": "BldgType",
+                "alias": "BldgType",
+                "type": "STRING",
+                "name": "BldgType"
+              },
+              {
+                "jimuName": "BldgName",
+                "alias": "BldgName",
+                "type": "STRING",
+                "name": "BldgName"
+              },
+              {
+                "jimuName": "LevelType",
+                "alias": "LevelType",
+                "type": "STRING",
+                "name": "LevelType"
+              },
+              {
+                "jimuName": "LevelName",
+                "alias": "LevelName",
+                "type": "STRING",
+                "name": "LevelName"
+              },
+              {
+                "jimuName": "UnitType",
+                "alias": "UnitType",
+                "type": "STRING",
+                "name": "UnitType"
+              },
+              {
+                "jimuName": "UnitName",
+                "alias": "UnitName",
+                "type": "STRING",
+                "name": "UnitName"
+              },
+              {
+                "jimuName": "SubAddress",
+                "alias": "SubAddress",
+                "type": "STRING",
+                "name": "SubAddress"
+              },
+              {
+                "jimuName": "StAddr",
+                "alias": "StAddr",
+                "type": "STRING",
+                "name": "StAddr"
+              },
+              {
+                "jimuName": "Block",
+                "alias": "Block",
+                "type": "STRING",
+                "name": "Block"
+              },
+              {
+                "jimuName": "Sector",
+                "alias": "Sector",
+                "type": "STRING",
+                "name": "Sector"
+              },
+              {
+                "jimuName": "Neighborhood",
+                "alias": "Neighborhood",
+                "type": "STRING",
+                "name": "Neighborhood"
+              },
+              {
+                "jimuName": "District",
+                "alias": "District",
+                "type": "STRING",
+                "name": "District"
+              },
+              {
+                "jimuName": "City",
+                "alias": "City",
+                "type": "STRING",
+                "name": "City"
+              },
+              {
+                "jimuName": "MetroArea",
+                "alias": "MetroArea",
+                "type": "STRING",
+                "name": "MetroArea"
+              },
+              {
+                "jimuName": "Subregion",
+                "alias": "Subregion",
+                "type": "STRING",
+                "name": "Subregion"
+              },
+              {
+                "jimuName": "Region",
+                "alias": "Region",
+                "type": "STRING",
+                "name": "Region"
+              },
+              {
+                "jimuName": "RegionAbbr",
+                "alias": "RegionAbbr",
+                "type": "STRING",
+                "name": "RegionAbbr"
+              },
+              {
+                "jimuName": "Territory",
+                "alias": "Territory",
+                "type": "STRING",
+                "name": "Territory"
+              },
+              {
+                "jimuName": "Zone",
+                "alias": "Zone",
+                "type": "STRING",
+                "name": "Zone"
+              },
+              {
+                "jimuName": "Postal",
+                "alias": "Postal",
+                "type": "STRING",
+                "name": "Postal"
+              },
+              {
+                "jimuName": "PostalExt",
+                "alias": "PostalExt",
+                "type": "STRING",
+                "name": "PostalExt"
+              },
+              {
+                "jimuName": "Country",
+                "alias": "Country",
+                "type": "STRING",
+                "name": "Country"
+              },
+              {
+                "jimuName": "CountryName",
+                "alias": "CountryName",
+                "type": "STRING",
+                "name": "CountryName"
+              },
+              {
+                "jimuName": "LangCode",
+                "alias": "LangCode",
+                "type": "STRING",
+                "name": "LangCode"
+              },
+              {
+                "jimuName": "Distance",
+                "alias": "Distance",
+                "type": "STRING",
+                "name": "Distance"
+              },
+              {
+                "jimuName": "X",
+                "alias": "X",
+                "type": "STRING",
+                "name": "X"
+              },
+              {
+                "jimuName": "Y",
+                "alias": "Y",
+                "type": "STRING",
+                "name": "Y"
+              },
+              {
+                "jimuName": "DisplayX",
+                "alias": "DisplayX",
+                "type": "STRING",
+                "name": "DisplayX"
+              },
+              {
+                "jimuName": "DisplayY",
+                "alias": "DisplayY",
+                "type": "STRING",
+                "name": "DisplayY"
+              },
+              {
+                "jimuName": "Xmin",
+                "alias": "Xmin",
+                "type": "STRING",
+                "name": "Xmin"
+              },
+              {
+                "jimuName": "Xmax",
+                "alias": "Xmax",
+                "type": "STRING",
+                "name": "Xmax"
+              },
+              {
+                "jimuName": "Ymin",
+                "alias": "Ymin",
+                "type": "STRING",
+                "name": "Ymin"
+              },
+              {
+                "jimuName": "Ymax",
+                "alias": "Ymax",
+                "type": "STRING",
+                "name": "Ymax"
+              },
+              {
+                "jimuName": "ExtraInfo",
+                "alias": "ExtraInfo",
+                "type": "STRING",
+                "name": "ExtraInfo"
+              }
+            ],
+            "displayFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              }
+            ],
+            "defaultAddressFieldName": "Default Address"
+          }
+        ],
+        "isShowRecentSearches": true,
+        "isAutoSelectFirstResult": false,
+        "hint": "Parcel ID or Parcel Address"
+      },
+      "id": "widget_50",
+      "outputDataSources": [
+        "widget_50_output_config_1"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        }
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18aade0e989-layer-6",
+          "mainDataSourceId": "dataSource_1-18aade0e989-layer-6",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "prop_location",
+            "parcel_id"
+          ]
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -3053,11 +3635,501 @@
         }
       },
       "geometryType": "esriGeometryPoint"
+    },
+    "widget_50_output_config_1": {
+      "id": "widget_50_output_config_1",
+      "type": "FEATURE_LAYER",
+      "label": "ArcGIS World Geocoding Service",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "ArcGIS World Geocoding Service",
+        "idField": "objectid",
+        "fields": {
+          "Default Address": {
+            "jimuName": "Default Address",
+            "alias": "Default Address",
+            "type": "STRING",
+            "name": "Default Address"
+          },
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Address or Place": {
+            "jimuName": "Address or Place",
+            "alias": "Address or Place",
+            "type": "STRING",
+            "name": "Address or Place"
+          },
+          "Address2": {
+            "jimuName": "Address2",
+            "alias": "Address2",
+            "type": "STRING",
+            "name": "Address2"
+          },
+          "Address3": {
+            "jimuName": "Address3",
+            "alias": "Address3",
+            "type": "STRING",
+            "name": "Address3"
+          },
+          "Neighborhood": {
+            "jimuName": "Neighborhood",
+            "alias": "Neighborhood",
+            "type": "STRING",
+            "name": "Neighborhood"
+          },
+          "City": {
+            "jimuName": "City",
+            "alias": "City",
+            "type": "STRING",
+            "name": "City"
+          },
+          "County": {
+            "jimuName": "County",
+            "alias": "County",
+            "type": "STRING",
+            "name": "County"
+          },
+          "State": {
+            "jimuName": "State",
+            "alias": "State",
+            "type": "STRING",
+            "name": "State"
+          },
+          "ZIP": {
+            "jimuName": "ZIP",
+            "alias": "ZIP",
+            "type": "STRING",
+            "name": "ZIP"
+          },
+          "ZIP4": {
+            "jimuName": "ZIP4",
+            "alias": "ZIP4",
+            "type": "STRING",
+            "name": "ZIP4"
+          },
+          "Country": {
+            "jimuName": "Country",
+            "alias": "Country",
+            "type": "STRING",
+            "name": "Country"
+          },
+          "Loc_name": {
+            "jimuName": "Loc_name",
+            "alias": "Loc_name",
+            "type": "STRING",
+            "name": "Loc_name"
+          },
+          "Shape": {
+            "jimuName": "Shape",
+            "alias": "Shape",
+            "type": "STRING",
+            "name": "Shape"
+          },
+          "Status": {
+            "jimuName": "Status",
+            "alias": "Status",
+            "type": "STRING",
+            "name": "Status"
+          },
+          "Score": {
+            "jimuName": "Score",
+            "alias": "Score",
+            "type": "STRING",
+            "name": "Score"
+          },
+          "Match_addr": {
+            "jimuName": "Match_addr",
+            "alias": "Match_addr",
+            "type": "STRING",
+            "name": "Match_addr"
+          },
+          "LongLabel": {
+            "jimuName": "LongLabel",
+            "alias": "LongLabel",
+            "type": "STRING",
+            "name": "LongLabel"
+          },
+          "ShortLabel": {
+            "jimuName": "ShortLabel",
+            "alias": "ShortLabel",
+            "type": "STRING",
+            "name": "ShortLabel"
+          },
+          "Addr_type": {
+            "jimuName": "Addr_type",
+            "alias": "Addr_type",
+            "type": "STRING",
+            "name": "Addr_type"
+          },
+          "Type": {
+            "jimuName": "Type",
+            "alias": "Type",
+            "type": "STRING",
+            "name": "Type"
+          },
+          "PlaceName": {
+            "jimuName": "PlaceName",
+            "alias": "PlaceName",
+            "type": "STRING",
+            "name": "PlaceName"
+          },
+          "Place_addr": {
+            "jimuName": "Place_addr",
+            "alias": "Place_addr",
+            "type": "STRING",
+            "name": "Place_addr"
+          },
+          "Phone": {
+            "jimuName": "Phone",
+            "alias": "Phone",
+            "type": "STRING",
+            "name": "Phone"
+          },
+          "URL": {
+            "jimuName": "URL",
+            "alias": "URL",
+            "type": "STRING",
+            "name": "URL"
+          },
+          "Rank": {
+            "jimuName": "Rank",
+            "alias": "Rank",
+            "type": "STRING",
+            "name": "Rank"
+          },
+          "BuildingName": {
+            "jimuName": "BuildingName",
+            "alias": "BuildingName",
+            "type": "STRING",
+            "name": "BuildingName"
+          },
+          "AddressNumber": {
+            "jimuName": "AddressNumber",
+            "alias": "AddressNumber",
+            "type": "STRING",
+            "name": "AddressNumber"
+          },
+          "AddNumFrom": {
+            "jimuName": "AddNumFrom",
+            "alias": "AddNumFrom",
+            "type": "STRING",
+            "name": "AddNumFrom"
+          },
+          "AddNumTo": {
+            "jimuName": "AddNumTo",
+            "alias": "AddNumTo",
+            "type": "STRING",
+            "name": "AddNumTo"
+          },
+          "AddressRange": {
+            "jimuName": "AddressRange",
+            "alias": "AddressRange",
+            "type": "STRING",
+            "name": "AddressRange"
+          },
+          "Side": {
+            "jimuName": "Side",
+            "alias": "Side",
+            "type": "STRING",
+            "name": "Side"
+          },
+          "StPreDir": {
+            "jimuName": "StPreDir",
+            "alias": "StPreDir",
+            "type": "STRING",
+            "name": "StPreDir"
+          },
+          "StPreType": {
+            "jimuName": "StPreType",
+            "alias": "StPreType",
+            "type": "STRING",
+            "name": "StPreType"
+          },
+          "StName": {
+            "jimuName": "StName",
+            "alias": "StName",
+            "type": "STRING",
+            "name": "StName"
+          },
+          "StType": {
+            "jimuName": "StType",
+            "alias": "StType",
+            "type": "STRING",
+            "name": "StType"
+          },
+          "StDir": {
+            "jimuName": "StDir",
+            "alias": "StDir",
+            "type": "STRING",
+            "name": "StDir"
+          },
+          "BldgType": {
+            "jimuName": "BldgType",
+            "alias": "BldgType",
+            "type": "STRING",
+            "name": "BldgType"
+          },
+          "BldgName": {
+            "jimuName": "BldgName",
+            "alias": "BldgName",
+            "type": "STRING",
+            "name": "BldgName"
+          },
+          "LevelType": {
+            "jimuName": "LevelType",
+            "alias": "LevelType",
+            "type": "STRING",
+            "name": "LevelType"
+          },
+          "LevelName": {
+            "jimuName": "LevelName",
+            "alias": "LevelName",
+            "type": "STRING",
+            "name": "LevelName"
+          },
+          "UnitType": {
+            "jimuName": "UnitType",
+            "alias": "UnitType",
+            "type": "STRING",
+            "name": "UnitType"
+          },
+          "UnitName": {
+            "jimuName": "UnitName",
+            "alias": "UnitName",
+            "type": "STRING",
+            "name": "UnitName"
+          },
+          "SubAddress": {
+            "jimuName": "SubAddress",
+            "alias": "SubAddress",
+            "type": "STRING",
+            "name": "SubAddress"
+          },
+          "StAddr": {
+            "jimuName": "StAddr",
+            "alias": "StAddr",
+            "type": "STRING",
+            "name": "StAddr"
+          },
+          "Block": {
+            "jimuName": "Block",
+            "alias": "Block",
+            "type": "STRING",
+            "name": "Block"
+          },
+          "Sector": {
+            "jimuName": "Sector",
+            "alias": "Sector",
+            "type": "STRING",
+            "name": "Sector"
+          },
+          "District": {
+            "jimuName": "District",
+            "alias": "District",
+            "type": "STRING",
+            "name": "District"
+          },
+          "MetroArea": {
+            "jimuName": "MetroArea",
+            "alias": "MetroArea",
+            "type": "STRING",
+            "name": "MetroArea"
+          },
+          "Subregion": {
+            "jimuName": "Subregion",
+            "alias": "Subregion",
+            "type": "STRING",
+            "name": "Subregion"
+          },
+          "Region": {
+            "jimuName": "Region",
+            "alias": "Region",
+            "type": "STRING",
+            "name": "Region"
+          },
+          "RegionAbbr": {
+            "jimuName": "RegionAbbr",
+            "alias": "RegionAbbr",
+            "type": "STRING",
+            "name": "RegionAbbr"
+          },
+          "Territory": {
+            "jimuName": "Territory",
+            "alias": "Territory",
+            "type": "STRING",
+            "name": "Territory"
+          },
+          "Zone": {
+            "jimuName": "Zone",
+            "alias": "Zone",
+            "type": "STRING",
+            "name": "Zone"
+          },
+          "Postal": {
+            "jimuName": "Postal",
+            "alias": "Postal",
+            "type": "STRING",
+            "name": "Postal"
+          },
+          "PostalExt": {
+            "jimuName": "PostalExt",
+            "alias": "PostalExt",
+            "type": "STRING",
+            "name": "PostalExt"
+          },
+          "CountryName": {
+            "jimuName": "CountryName",
+            "alias": "CountryName",
+            "type": "STRING",
+            "name": "CountryName"
+          },
+          "LangCode": {
+            "jimuName": "LangCode",
+            "alias": "LangCode",
+            "type": "STRING",
+            "name": "LangCode"
+          },
+          "Distance": {
+            "jimuName": "Distance",
+            "alias": "Distance",
+            "type": "STRING",
+            "name": "Distance"
+          },
+          "X": {
+            "jimuName": "X",
+            "alias": "X",
+            "type": "STRING",
+            "name": "X"
+          },
+          "Y": {
+            "jimuName": "Y",
+            "alias": "Y",
+            "type": "STRING",
+            "name": "Y"
+          },
+          "DisplayX": {
+            "jimuName": "DisplayX",
+            "alias": "DisplayX",
+            "type": "STRING",
+            "name": "DisplayX"
+          },
+          "DisplayY": {
+            "jimuName": "DisplayY",
+            "alias": "DisplayY",
+            "type": "STRING",
+            "name": "DisplayY"
+          },
+          "Xmin": {
+            "jimuName": "Xmin",
+            "alias": "Xmin",
+            "type": "STRING",
+            "name": "Xmin"
+          },
+          "Xmax": {
+            "jimuName": "Xmax",
+            "alias": "Xmax",
+            "type": "STRING",
+            "name": "Xmax"
+          },
+          "Ymin": {
+            "jimuName": "Ymin",
+            "alias": "Ymin",
+            "type": "STRING",
+            "name": "Ymin"
+          },
+          "Ymax": {
+            "jimuName": "Ymax",
+            "alias": "Ymax",
+            "type": "STRING",
+            "name": "Ymax"
+          },
+          "ExtraInfo": {
+            "jimuName": "ExtraInfo",
+            "alias": "ExtraInfo",
+            "type": "STRING",
+            "name": "ExtraInfo"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint"
     }
   },
-  "messageConfigs": {},
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_50",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_41-zoomToFeature-1724261987829",
+          "widgetId": "widget_41",
+          "messageWidgetId": "widget_50",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18aade0e989-layer-6",
+              "mainDataSourceId": "dataSource_1-18aade0e989-layer-6",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18aade0e989-layer-6",
+                "mainDataSourceId": "dataSource_1-18aade0e989-layer-6",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.13.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_50",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_41-zoomToFeature-1724262025894",
+          "widgetId": "widget_41",
+          "messageWidgetId": "widget_50",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18aade0e989-layer-6",
+              "mainDataSourceId": "dataSource_1-18aade0e989-layer-6",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18aade0e989-layer-6",
+                "mainDataSourceId": "dataSource_1-18aade0e989-layer-6",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.13.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
   "attributes": {
-    "portalUrl": "https://millcrk.maps.arcgis.com"
+    "portalUrl": "https://millcrk.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "ArcGIS Experience SDK",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {},
@@ -3075,6 +4147,30 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1722272823589,
-  "controllerPanels": {}
+  "timestamp": 1724269109592,
+  "controllerPanels": {},
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": "GEOCODING",
+      "name": "geocode",
+      "label": "ArcGIS World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "northLat": "Ymax",
+        "southLat": "Ymin",
+        "eastLon": "Xmax",
+        "westLon": "Xmin",
+        "name": "ArcGIS World Geocoding Service",
+        "batch": true,
+        "placefinding": true,
+        "suggest": true,
+        "esri": true,
+        "ordinal": 1
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 1
+    }
+  }
 }
